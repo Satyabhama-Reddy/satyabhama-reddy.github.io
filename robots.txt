@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://satyabhama.github.io/satyabhama-reddy.github.io/portfolio/sitemap-index.xml
+Sitemap: https://satyabhama.github.io/sitemap-index.xml
 Host: https://satyabhama.github.io

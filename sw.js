@@ -27,21 +27,21 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-07e6c52a808803bbbc23.js"
+    "url": "webpack-runtime-8336d8c2bc82d758018a.js"
   },
   {
     "url": "framework-71b6de6ea1879fae17bb.js"
   },
   {
-    "url": "app-1ec7a7a0894b17d32627.js"
+    "url": "app-58a0bd80f5b669ee618b.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "4fd88a6f8dd490116fa9e08928a64dcc"
+    "revision": "f85dc432e5a4d9340a840ed4ee156255"
   },
   {
     "url": "manifest.webmanifest",
-    "revision": "67cf06d8e10dc2e62fe52774a7afe019"
+    "revision": "02cffa3d1caa74e8908f1e6bd2fd02bd"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
@@ -146,12 +146,12 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   lastNavigationRequest = event.request.url
 
   let { pathname } = new URL(event.request.url)
-  pathname = pathname.replace(new RegExp(`^/satyabhama-reddy.github.io/portfolio`), ``)
+  pathname = pathname.replace(new RegExp(`^`), ``)
 
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/satyabhama-reddy.github.io/portfolio/app-1ec7a7a0894b17d32627.js`))) {
+  if (!resources || !(await caches.match(`/app-58a0bd80f5b669ee618b.js`))) {
     return await fetch(event.request)
   }
 
@@ -164,7 +164,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
     }
   }
 
-  const offlineShell = `/satyabhama-reddy.github.io/portfolio/offline-plugin-app-shell-fallback/index.html`
+  const offlineShell = `/offline-plugin-app-shell-fallback/index.html`
   const offlineShellWithKey = workbox.precaching.getCacheKeyForURL(offlineShell)
   return await caches.match(offlineShellWithKey)
 })
