@@ -1,8 +1,8 @@
 ---
 date: '2022-12-2023'
-title: 'Image Classification'
-github: 'https://github.com/Satyabhama-Reddy/image-classification'
-external: ''
+title: 'Face Image Super Resolution'
+github: ''
+external: 'https://ieeexplore.ieee.org/document/9588816'
 tech:
   - Python
   - Keras
