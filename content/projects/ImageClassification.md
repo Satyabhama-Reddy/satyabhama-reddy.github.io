@@ -1,5 +1,5 @@
 ---
-date: '2022-12-2023'
+date: '2022-12-23'
 title: 'Image Classification'
 github: 'https://github.com/Satyabhama-Reddy/image-classification'
 external: ''

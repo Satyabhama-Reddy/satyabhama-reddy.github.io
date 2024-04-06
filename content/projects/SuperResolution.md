@@ -1,5 +1,5 @@
 ---
-date: '2022-12-2023'
+date: '2020-02-13'
 title: 'Face Image Super Resolution'
 github: ''
 external: 'https://ieeexplore.ieee.org/document/9588816'
