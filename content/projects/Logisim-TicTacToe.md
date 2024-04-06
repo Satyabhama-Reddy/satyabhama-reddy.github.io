@@ -9,7 +9,7 @@ tech:
   - Algorithms
 
 company: 'PES University'
-showInProjects: true
+showInProjects: false
 ---
 
 Created a digital logic circuit design of a playable version of the classic Tic-Tac-Toe game using LogiSim

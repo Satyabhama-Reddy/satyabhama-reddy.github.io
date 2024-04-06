@@ -8,7 +8,7 @@ tech:
   - CSS
 
 company: 'PES University'
-showInProjects: true
+showInProjects: false
 ---
 
 Two simple fun games developed only using HTML and CSS animations.

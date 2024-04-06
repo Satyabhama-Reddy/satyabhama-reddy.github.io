@@ -9,7 +9,7 @@ tech:
 
 
 company: 'Texas A&M University'
-showInProjects: true
+showInProjects: false
 ---
 
 Parallalized Strassen's Matrix Multiplication Algorithm using OpenMP.
