@@ -13,6 +13,3 @@ showInProjects: false
 ---
 
 Parallalized Strassen's Matrix Multiplication Algorithm using OpenMP.
-
-
-https://github.com/Satyabhama-Reddy/parallel-computing/tree/main/MajorProject-735
