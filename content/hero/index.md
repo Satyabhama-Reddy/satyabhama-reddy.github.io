@@ -1,7 +1,7 @@
 ---
-title: 'Hello World! I\'m'
-name: 'Gundam Satyabhama Reddy (Satya)'
-subtitle: ""
+title: 'Hello World! My name is'
+name: 'Gundam Satyabhama Reddy'
+subtitle: "Haha! Name's a marathon, but 'Satya' is the sprint version!"
 buttonText: 'Contact Me'
 ---
 👩‍🎓 I am pursuing a Master's degree in Computer Science from [Texas A&M University](https://www.tamu.edu/)(May'24), providing me with a solid groundwork to tackle complex challenges.
